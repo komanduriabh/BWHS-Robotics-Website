@@ -1,0 +1,121 @@
+<div className={splitClasses}>
+              
+            <div className="split-item">
+              <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
+                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
+                    33691A
+                  </div>
+                <h3 className="mt-0 mb-12">
+                  Gold Dusk
+                  </h3>
+                  {/* <h4 className="mt-0 mb-12"><a href="mailto:cholderby@bentonvillek12.org">cholderby@bentonvillek12.org</a></h4> */}
+                <p className="m-0">
+                Gold Dusk was the first team at Bentonville West. They strive to follow the engineering process with as much detail as possible. They are innovative and creative.
+                  </p>
+              </div>
+              <div className={
+                classNames(
+                  'split-item-image center-content-mobile reveal-from-bottom',
+                  imageFill && 'split-item-image-fill'
+                )}
+                data-reveal-container=".split-item">
+                  <a onClick={openModal}>
+                 <Image
+                  src={require('./../../assets/images/gd.png')}
+                  alt="Features split 01"
+                  width={528}
+                  height={396} />
+                  </a>
+
+                  <Modal
+                    show={videoModalActive}
+                    handleClose={closeModal}
+                    
+                   />
+              </div>
+            </div>
+
+            <div className="split-item">
+              <div className="split-item-content center-content-mobile reveal-from-right" data-reveal-container=".split-item">
+                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
+                  33691B
+                  </div>
+                <h3 className="mt-0 mb-12">
+                  Blue "New" Dawn
+                  </h3>
+                <p className="m-0">
+                Blue Dawn was the second team at Bentonville West. They consist of hard working members who show up to every meeting. Blue Dawn received the Excellence Award at the Spring VRC Robotics Open at Fayetteville 2018.
+                
+                  </p>
+              </div>
+              <div className={
+                classNames(
+                  'split-item-image center-content-mobile reveal-from-bottom',
+                  imageFill && 'split-item-image-fill'
+                )}
+                data-reveal-container=".split-item">
+                <Image
+                  src={require('./../../assets/images/nd.png')}
+                  alt="Features split 02"
+                  width={528}
+                  height={396} />
+              </div>
+            </div>
+
+            <div className="split-item">
+              <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
+                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
+                  38972C
+                  </div>
+                <h3 className="mt-0 mb-12">
+                  Women of West
+                  </h3>
+                <p className="m-0">
+                The third and only all girls team of Bentonville West. This team consists of members who are uniquely cooperative, engaged and talented. They earned the judge's choice award, and won the tournament championship at Spring VRC Robotics Open at Fayetteville 2018. 
+                  
+                  </p>
+              </div>
+              <div className={
+                classNames(
+                  'split-item-image center-content-mobile reveal-from-bottom',
+                  imageFill && 'split-item-image-fill'
+                )}
+                data-reveal-container=".split-item">
+                <Image
+                  src={require('./../../assets/images/wow.png')}
+                  alt="Features split 03"
+                  width={528}
+                  height={396} />
+              </div>
+            </div>
+
+
+            <div className="split-item">
+              <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
+                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
+                  38863A
+                  </div>
+                <h3 className="mt-0 mb-12">
+                  Navy Nights
+                  </h3>
+                <p className="m-0">
+                B-WEST is the newest addition to the Bentonville West Robotics Club program. They are composed mostly of members new to Vex Robotics, yet they are outstanding in their respected fields. Look out for B-WEST!
+                  
+                  </p>
+              </div>
+              <div className={
+                classNames(
+                  'split-item-image center-content-mobile reveal-from-bottom',
+                  imageFill && 'split-item-image-fill'
+                )}
+                data-reveal-container=".split-item">
+                <Image
+                  src={require('./../../assets/images/nn.png')}
+                  alt="Features split 03"
+                  width={528}
+                  height={396} />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
